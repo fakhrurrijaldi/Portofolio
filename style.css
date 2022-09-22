@@ -1,10 +1,12 @@
-body {
-	min-height: 2000px;
-}
 .jumbotron {
 	padding-top: 7rem;
-	background-color: #cbf1f5;
+	background-color: #2596be;
 }
-#project {
-	background-color: #cbf1f5;
+#gallery {
+	background-color: #2596be;
+}
+.navbar {
+}
+footer {
+	background-color: #2596be;
 }
