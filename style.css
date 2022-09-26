@@ -1,12 +1,63 @@
+/* Navbar */
+.navbar {
+	background-color: #755139ff;
+}
+.navbarbaru li a {
+	color: #f2edd7ff;
+}
+/* Akhir Navbar */
+
+/* Main Section */
 .jumbotron {
 	padding-top: 7rem;
-	background-color: #2596be;
+	background-color: #f2edd7ff;
 }
+/* Text */
+h1,
+p {
+	animation: tracking-in-contract 0.9s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@keyframes tracking-in-contract {
+	0% {
+		letter-spacing: 1em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		letter-spacing: normal;
+		opacity: 1;
+	}
+}
+/* Akhir Text */
+/* AKhir Main Section */
+
+/* Galerry */
 #gallery {
-	background-color: #2596be;
+	background-color: #755139ff;
 }
-.navbar {
+/* Akhir Gallery */
+
+/* Button */
+button {
+	color: #755139ff;
+	background-color: white;
+	border: 1px solid #755139ff;
+	border-radius: 4px;
+	padding: 0 15px;
+	cursor: pointer;
+	height: 36px;
+	font-size: 14px;
+	transition: all 0.2s ease-in-out;
 }
+button:hover {
+	transform: scale(0.8);
+}
+/* AKhir Button */
+
+/* Footer */
 footer {
-	background-color: #2596be;
+	background-color: #755139ff;
 }
+/* Akhir Footer */
